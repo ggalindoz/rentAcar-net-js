@@ -8,30 +8,29 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\guilherme.rodrigues\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Arquivos\\Workspace\\rentCarBackend\\src\\Api.Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "D:\\Arquivos\\Workspace\\rentCarBackend\\src\\Api.Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\guilherme.rodrigues\\.nuget\\packages\\",
-      "outputPath": "D:\\Arquivos\\Workspace\\rentCarBackend\\src\\Api.Domain\\obj\\",
+      "projectPath": "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\guilherme.rodrigues\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -39,17 +38,24 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -58,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.426\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
