@@ -3,8 +3,8 @@ using System.Net;
 using System.Threading.Tasks;
 using Api.Domain.Entities;
 using Api.Domain.Interfaces.Services.User;
+using Api.Domain.Interfaces.Services.UserTdo;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore.Query;
 
 namespace Api.Application.Controllers
 {
@@ -16,9 +16,13 @@ namespace Api.Application.Controllers
     public class UsersController : ControllerBase
     {
         private IUserService _service;
-        public UsersController(IUserService service)
+
+        private IUserTdoService _serviceTdo;
+
+        public UsersController(IUserService service, IUserTdoService serviceTdo)
         {
             _service = service;
+            _serviceTdo = serviceTdo;
         }
         [HttpGet]
         public async Task<ActionResult> GetAll()
@@ -31,7 +35,7 @@ namespace Api.Application.Controllers
 
             try
             {
-                return Ok(await _service.GetAll());
+                return Ok(await _serviceTdo.GetAll());
             }
             catch (ArgumentException ex)
             {

@@ -9,8 +9,9 @@ namespace Api.Domain.Interfaces.Services.User
     {
 
         Task<UserEntity> Get(Guid id);
-
-        Task<IEnumerable<UserEntity>> GetAll();
+        
+        //Esse getAll está sendo feito pelo Api.Domain.Interfaces.Services.IUserTdoService, para gerar um TDO onde só volta o nome do usuário.
+        //Task<IEnumerable<UserEntity>> GetAll();
 
         Task<UserEntity> Post(UserEntity user);
         Task<UserEntity> Put(UserEntity user);

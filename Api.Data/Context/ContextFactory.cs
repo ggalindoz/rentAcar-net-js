@@ -9,7 +9,7 @@ namespace Api.Data.Context
 
         public MyContext CreateDbContext(string[] args)
         {
-            var connectionString = "Server=localhost\\SQLEXPRESS;Database=galindo;Uid=josimar;Pwd=123";
+            var connectionString = "Server=localhost\\MSSQLSERVER2;Database=galindo;Uid=sa;Pwd=fpw";
             var optionBuilder = new DbContextOptionsBuilder<MyContext>();
             optionBuilder.UseSqlServer(connectionString);
             return new MyContext(optionBuilder.Options);

@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "LAevP4ScSQ0=",
+  "dgSpecHash": "u3pvvNxJQdI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Domain\\Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Santri\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Santri\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Santri\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
   "logs": []
 }
