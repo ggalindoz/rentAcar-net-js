@@ -40,6 +40,17 @@ namespace application
                 });
             });
 
+            services.AddCors(options =>
+        {
+            options.AddPolicy("AllowAll",
+                builder =>
+                {
+                    builder.AllowAnyOrigin()
+                           .AllowAnyMethod()
+                           .AllowAnyHeader();
+                });
+        });
+
             services.AddControllers();
         }
 
@@ -59,6 +70,8 @@ namespace application
             });
 
             app.UseRouting();
+
+            app.UseCors("AllowAll");
 
             app.UseAuthorization();
 
