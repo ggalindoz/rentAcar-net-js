@@ -1,39 +1,41 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Application\\application.csproj": {}
+    "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Application\\application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Application\\application.csproj": {
+    "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Application\\application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Application\\application.csproj",
+        "projectUniqueName": "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Application\\application.csproj",
         "projectName": "application",
-        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Application\\application.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Application\\obj\\",
+        "projectPath": "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Application\\application.csproj",
+        "packagesPath": "C:\\Users\\Santri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Santri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.CrossCutting\\CrossCutting.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.CrossCutting\\CrossCutting.csproj"
+              "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.CrossCutting\\CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.CrossCutting\\CrossCutting.csproj"
               },
-              "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Domain\\Domain.csproj"
+              "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Domain\\Domain.csproj"
               },
-              "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Service\\Service.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Service\\Service.csproj"
+              "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Service\\Service.csproj"
               }
             }
           }
@@ -83,6 +85,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.32, 3.1.32]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -95,36 +115,38 @@
         }
       }
     },
-    "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.CrossCutting\\CrossCutting.csproj": {
+    "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.CrossCutting\\CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.CrossCutting\\CrossCutting.csproj",
+        "projectUniqueName": "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.CrossCutting\\CrossCutting.csproj",
         "projectName": "CrossCutting",
-        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.CrossCutting\\CrossCutting.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.CrossCutting\\obj\\",
+        "projectPath": "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.CrossCutting\\CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\Santri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Santri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Data\\Data.csproj"
+              "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Data\\Data.csproj"
               },
-              "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Domain\\Domain.csproj"
+              "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Domain\\Domain.csproj"
               },
-              "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Service\\Service.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Service\\Service.csproj"
+              "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Service\\Service.csproj"
               }
             }
           }
@@ -160,6 +182,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -169,30 +205,32 @@
         }
       }
     },
-    "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Data\\Data.csproj": {
+    "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Data\\obj\\",
+        "projectPath": "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\Santri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Santri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Domain\\Domain.csproj"
+              "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Domain\\Domain.csproj"
               }
             }
           }
@@ -244,6 +282,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -253,22 +305,24 @@
         }
       }
     },
-    "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Domain\\Domain.csproj": {
+    "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Santri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Santri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -302,6 +356,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -311,33 +379,35 @@
         }
       }
     },
-    "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Service\\Service.csproj": {
+    "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Service\\obj\\",
+        "projectPath": "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\Santri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Santri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Data\\Data.csproj"
+              "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Data\\Data.csproj"
               },
-              "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\rentAcar-net-js\\Api.Domain\\Domain.csproj"
+              "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Santri\\Documents\\GitHub\\rentAcar-net-js\\Api.Domain\\Domain.csproj"
               }
             }
           }
@@ -367,6 +437,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
