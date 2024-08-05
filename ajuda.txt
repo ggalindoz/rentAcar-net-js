@@ -1,0 +1,5 @@
+Instalar o pacote Entity Framework Core CLI:
+dotnet tool install --global dotnet-ef
+
+Atualizar o banco pela migration:
+dotnet ef database update
